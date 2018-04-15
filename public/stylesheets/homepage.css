@@ -1,0 +1,90 @@
+#head{
+	text-align: center;
+	background-color: #ecc9c7;
+	font-size: 35px;
+	
+	padding: 10%	
+}
+h5 {
+	font-weight: bold;
+	font-size: 25px;
+	/* slide in text when you visit the page*/
+	/*naming the animation to be called back */
+	animation-name: flyIn;
+	/*the time it takes animation to complete*/
+	animation-duration: 3s;
+}
+/* specifics of animation*/
+@keyframes flyIn {
+	/*starting position of quote*/
+	from{
+		margin-left: :100%;
+		width: 300%
+		} 
+		/*ending state*/
+	to{
+	 	margin-left: 50%;
+	 	width: 100%;
+}
+} 
+/*headings*/
+h2{
+	text-align: center;
+	background-color: #f3dcd4;
+}
+
+/*isolate and center themes and products headings*/
+.headings {
+	text-align: center;
+	padding: 20px;
+}
+.gallery{
+	background-color: #D9E3DA;
+}
+
+.gallery-item {
+	padding: 4px;
+	margin:  4px;
+	position: relative;
+}
+
+.img-title{
+	font-size: 30px;
+	position: absolute;
+	left:40%;
+	top:40%;
+}
+/*font size for about us section*/
+h4 {
+	text-align: center;
+	font-size: 20px;
+}
+/* GALLERY: pictures in products and themes sections: three pics of equal spacing between
+ and around.
+ css Flexbox
+ */
+
+ .flex-grid{
+ 	display: flex;
+ 	flex-direction: row;
+ 	padding: 20px
+ 	
+ }
+img {
+	width:450px; 
+	height:500px;
+}
+
+#foot {
+	
+	background-color: #ecc9c7;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+
+
+classic.jpg
+fairytale.jpg
+pastel.jpg
