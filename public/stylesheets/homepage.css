@@ -1,11 +1,20 @@
+#navi{
+	text-align: center;
+	background-color: #ecc9c7;
+	color: black;
+	padding: 10%	
+
+
+
+}
 #head{
 	text-align: center;
 	background-color: #ecc9c7;
-	font-size: 35px;
+	/*font-size: 35px;*/
 	
-	padding: 10%	
+	/*padding: 10%*/	
 }
-h5 {
+h4 {
 	font-weight: bold;
 	font-size: 25px;
 	/* slide in text when you visit the page*/
@@ -28,8 +37,8 @@ h5 {
 }
 } 
 #head-image{
-  height: 500px;
-  width: 600px;
+  height: 900px;
+  width: 1000px;
 }
 /*headings*/
 h2{
